@@ -1,0 +1,252 @@
+/* reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* características generales de enlaces-listas */
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:#F2784B;    
+}
+
+fieldset {
+    border: none;
+}
+    
+/* CUERPO GENERAL */
+
+body{
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+}
+
+/* ENCABEZADO GENERAL */
+
+.encabezado {
+    background-color: #292929;
+    border-bottom: #F2784B solid 2px ;
+    border-radius: 20px;
+}
+
+.logo-agencia {
+    width: 20em;
+}
+
+.frase-encabezado {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #F2784B;
+    font-size: 35px;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+.menu-nav
+
+.seccion-menu-nav {
+    color: #F2784B;
+    font-family: 'Roboto', sans-serif;
+    border: #F2784B 2px solid;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.seccion-abierta {
+    color: #292929;
+    font-family: 'Roboto', sans-serif;
+    border: #F2784B 2px solid;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+/* TÍTULOS EN GENERAL */
+
+.titulo-seccion{
+    color: #F2784B;
+    font-size: 25px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+/* MAIN */
+
+.contenedor-formulario-suscripcion {
+    width: 45em;
+    background-color: #F2784B;
+    border: #292929 solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.titulo-form{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario-suscripcion {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-main{
+    width: 65em;
+    margin-bottom: 10em;
+    color: #F2784B;
+}
+
+
+.imagen-cohete {
+    width: 5em;
+}
+
+.contenedor-marketing-news {
+    margin-top: 5em;
+}
+
+
+.titulo-articulo-uno {
+    font-size: 20px;
+}
+
+.contenedor-texto-articulo-uno {
+    width: 60%;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    border: #F2784B solid 2px;
+    background-color: #292929;
+}
+
+.texto-articulo-uno {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 15px;
+    color: #F2784B;
+}
+
+.marketing-news{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    border-top: #F2784B solid 2px;
+}
+
+.link-articulo-uno {
+    background-color: #292929;
+    justify-self: center;
+    
+}
+
+/* MAIN - SECCION NOSOTROS */
+
+.contenedor-main-nosotros {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    width: 60%;
+}
+
+.imagen-nosotros {
+    width: 20em;
+}
+
+.parrafo-seccion-nosotros {
+    text-align: center;
+    color: #F2784B;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resaltado{
+    color: #000000;
+    font-size: 16px;
+}
+
+/* MAIN - SECCION NUESTROS SERVICIOS */
+
+.contenedor-servicios{
+    width: 60%;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.parrafo-seccion-nuestros-servicios{
+    text-align: center;
+    color: #F2784B;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.item-servicios {
+    border: #292929 solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+    background-color: #F2784B;
+    margin-top: 4px;
+}
+
+.parrafo-dos-seccion-nuestros-servicios{
+    color: #F2784B;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MAIN - SECCION MARCAS ASOCIADAS*/
+
+.contenedor-marcas-asociadas{
+    width: 60%;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.item-marcas-asociadas {
+    border: #292929 solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+    background-color: #F2784B;
+    margin-top: 4px;
+}
+
+.parrafo-seccion-marcas-asociadas {
+    color: #F2784B;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MAIN - SECCION CONTACTO */
+
+.contenedor-formulario-contacto{
+    width: 55em;
+    background-color: #F2784B;
+    border: #292929 solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.formulario-contacto{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton-send {
+    background-color: #292929;
+    color: #F2784B;
+    margin-top: 3px;
+}
+
+/* FOOTER GENERAL */
+
+.contenedor-redes-sociales {
+    background-color: #292929;
+    border-top: #F2784B solid 2px;
+    position: fixed;
+    bottom: 0;
+}
+
+.icono-redes {
+    width: 3em;
+}
